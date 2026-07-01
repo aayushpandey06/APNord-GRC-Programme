@@ -11,6 +11,11 @@ APNord Oy is a fictional Finland-based technology company that I designed for th
 I did not want APNord to be just a random company name. I wanted it to have a business reason, a regulatory reason, and a security reason.
 
 So I treated it like a company that needed a proper Governance, Risk, and Compliance programme. I built the Confluence space as the internal source of truth for its Information Security Management System, covering policies, risk registers, audit evidence, supplier assessments, GDPR records, and NIS2 compliance documentation.
+<img width="705" height="835" alt="image" src="https://github.com/user-attachments/assets/f15686d7-652b-4d51-89dd-89ccf12c3aa2" />
+<img width="842" height="817" alt="image" src="https://github.com/user-attachments/assets/198d5864-6958-4c99-b5d5-167b3acf0a69" />
+
+Directory Structure :
+<img width="361" height="876" alt="image" src="https://github.com/user-attachments/assets/128f9268-c708-414b-935e-0bc11d257d46" />
 
 The company was not designed as a cloud provider itself. Instead, it was a technology company using AWS as its cloud infrastructure while providing IoT, SCADA, monitoring, and managed service capabilities to customers. That helped me think about shared responsibility, supplier risk, cloud controls, backup testing, access reviews, and business continuity in a more realistic way.
 
