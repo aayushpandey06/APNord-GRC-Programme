@@ -1,4 +1,4 @@
-Confluence link: https://pandeyaayush03-1782384395902.atlassian.net/wiki/spaces/AN/overview?homepageId=295174
+Confluence link:  https://pandeyaayush03-1782384395902.atlassian.net/wiki/x/BoEE
 
 I wanted to move beyond just reading cybersecurity frameworks and actually understand how they work inside an organization.
 
