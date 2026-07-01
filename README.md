@@ -1,6 +1,6 @@
 I wanted to move beyond just reading cybersecurity frameworks and actually understand how they work inside an organization.
 
-This started after my master’s thesis on the meta-analysis of security control domains, where I received a strong grade. That motivated me to go deeper into frameworks like ISO 27001, GDPR, and NIS2. Around the same time, I also had the opportunity to interview for a cybersecurity role, which made me realize that I needed to turn my theoretical knowledge into something practical.
+This started after my bachelor’s thesis on the meta-analysis of security control domains, where I received a strong grade. That motivated me to go deeper into frameworks like ISO 27001, GDPR, and NIS2. Around the same time, I also had the opportunity to interview for a cybersecurity role, which made me realize that I needed to turn my theoretical knowledge into something practical.
 
 Since I have not yet worked inside a large organization implementing these frameworks, I knew there would be mistakes and gaps in my approach. But I also knew that waiting for the “perfect” opportunity would not help me learn. So I decided to create my own learning environment.
 
