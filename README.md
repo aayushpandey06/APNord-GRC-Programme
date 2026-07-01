@@ -1,3 +1,5 @@
+Confluence link: https://pandeyaayush03-1782384395902.atlassian.net/wiki/spaces/AN/overview?homepageId=295174
+
 I wanted to move beyond just reading cybersecurity frameworks and actually understand how they work inside an organization.
 
 This started after my bachelor’s thesis on the meta-analysis of security control domains, where I received a strong grade. That motivated me to go deeper into frameworks like ISO 27001, GDPR, and NIS2. Around the same time, I also had the opportunity to interview for a cybersecurity role, which made me realize that I needed to turn my theoretical knowledge into something practical.
