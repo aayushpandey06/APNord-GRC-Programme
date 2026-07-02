@@ -132,6 +132,8 @@ If you have feedback, suggestions, or would like to connect, I'd be happy to hea
 
 Directory Structure :
 <img width="361" height="876" alt="image" src="https://github.com/user-attachments/assets/128f9268-c708-414b-935e-0bc11d257d46" />
+
+
 What I Learned
 
 This project helped me understand that cybersecurity is not only about technical controls.
