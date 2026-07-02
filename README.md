@@ -38,7 +38,7 @@ The company was intentionally designed to fall within the scope of multiple cybe
 
 Why I Built This
 
-This project began after completing my Master's thesis on the meta-analysis of security control domains.
+This project began after completing my bachelor's thesis on the meta-analysis of security control domains.
 
 While researching ISO 27001, I realised that understanding controls individually is very different from understanding how an entire Information Security Management System operates inside a business.
 
