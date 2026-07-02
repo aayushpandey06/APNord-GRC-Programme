@@ -1,39 +1,147 @@
-Confluence link:  https://pandeyaayush03-1782384395902.atlassian.net/wiki/x/BoEE
+Public Confluence documentation:  https://pandeyaayush03-1782384395902.atlassian.net/wiki/x/BoEE
 
-I wanted to move beyond just reading cybersecurity frameworks and actually understand how they work inside an organization.
+APNord Oy – Governance, Risk & Compliance (GRC) Programme
 
-This started after my bachelor’s thesis on the meta-analysis of security control domains, where I received a strong grade. That motivated me to go deeper into frameworks like ISO 27001, GDPR, and NIS2. Around the same time, I also had the opportunity to interview for a cybersecurity role, which made me realize that I needed to turn my theoretical knowledge into something practical.
+A simulated Information Security Management System (ISMS) built to understand how ISO/IEC 27001:2022, GDPR, and NIS2 are implemented in a real organizational environment.
 
-Since I have not yet worked inside a large organization implementing these frameworks, I knew there would be mistakes and gaps in my approach. But I also knew that waiting for the “perfect” opportunity would not help me learn. So I decided to create my own learning environment.
+Overview
 
-That is how I built APNord Oy.
+This project is a personal cybersecurity portfolio built around a fictional Finnish technology company, APNord Oy.
 
-APNord Oy is a fictional Finland-based technology company that I designed for this project. I imagined it as a small but growing company with 1–49 employees, annual revenue between €10M–€50M, and services around IoT device management, smart sensor networks, SCADA network monitoring, and data center co-location. The company runs its technology on AWS, mainly in the Ireland and Stockholm regions, and serves both general consumers and enterprise customers.
+The goal was not simply to write security policies, but to understand how an organization plans, documents, governs, and maintains its Information Security Management System (ISMS). Every document in this repository was created as part of a single, connected Governance, Risk & Compliance (GRC) programme.
 
-I did not want APNord to be just a random company name. I wanted it to have a business reason, a regulatory reason, and a security reason.
+The project is based on three major frameworks:
 
-So I treated it like a company that needed a proper Governance, Risk, and Compliance programme. I built the Confluence space as the internal source of truth for its Information Security Management System, covering policies, risk registers, audit evidence, supplier assessments, GDPR records, and NIS2 compliance documentation.
+ISO/IEC 27001:2022
+GDPR
+NIS2 Directive (EU 2022/2555)
+
+Rather than studying each framework independently, I wanted to understand how they work together inside an organization.
+
+About APNord Oy
+
+APNord Oy is a fictional technology company created solely for this learning project.
+
+Company profile:
+
+📍 Headquarters: Helsinki, Finland
+👥 Employees: 1–49
+💶 Annual Revenue: €10M–€50M
+☁️ Cloud Infrastructure: AWS (eu-west-1 & eu-north-1)
+🛰️ Business Areas:
+IoT Device Management
+Smart Sensor Networks
+SCADA Network Monitoring
+Data Centre Co-location
+
+The company was intentionally designed to fall within the scope of multiple cybersecurity and regulatory requirements, making it a realistic environment for implementing ISO 27001, GDPR, and NIS2.
+
+Why I Built This
+
+This project began after completing my Master's thesis on the meta-analysis of security control domains.
+
+While researching ISO 27001, I realised that understanding controls individually is very different from understanding how an entire Information Security Management System operates inside a business.
+
+Since I have not yet worked in a large organization implementing these frameworks, I decided to build a complete simulated environment where I could apply my theoretical knowledge.
+
+My objective was simple:
+
+Learn by building.
+
+Instead of treating ISO 27001, GDPR, and NIS2 as separate topics, I wanted to understand how governance, risk management, compliance, documentation, evidence, and continual improvement fit together.
+
+Project Scope
+
+This repository includes documentation for:
+
+Information Security Management System (ISMS)
+ISMS Scope Statement
+Information Security Policy
+Statement of Applicability (SoA)
+Governance Structure & RACI
+Risk Assessment Methodology
+Risk Register
+Risk Treatment Plan
+Security Policies
+GDPR Records of Processing Activities (RoPA)
+NIS2 Entity Classification
+NIS2 Article 21 Control Mapping
+Supplier Management
+Internal Audit Programme
+Management Reviews
+Nonconformity Management
+Control Evidence
+Backup Testing
+Access Reviews
+
+
+Repository Structure
+APNord-GRC/
+│
+├── Confluence Export/
+├── Gap Analysis Report/
+├── Risk Register/
+├── Policies/
+├── Controls Evidence/
+├── NIS2/
+├── GDPR/
+├── Audit/
+└── Supplier Management/
+
+Learning Approach
+
+I originally thought this project would take only a few weeks.
+
+Instead, I spent several weeks researching industry practices, understanding regulatory requirements, and documenting each process carefully.
+
+One rule guided the entire project:
+
+One page a day.
+
+Rather than writing documentation as quickly as possible, I focused on understanding:
+
+Why does this document exist?
+Who owns it?
+Which ISO 27001 clause or Annex A control supports it?
+How does it relate to GDPR or NIS2?
+What evidence would an auditor expect?
+
+That approach helped me understand governance far better than simply reading standards.
+
+Disclaimer
+
+This project is intended for educational and portfolio purposes only.
+
+APNord Oy is a fictional organization created to simulate the implementation of an enterprise Governance, Risk & Compliance programme.
+
+While every effort has been made to align the documentation with industry standards and best practices, it should not be considered production-ready compliance documentation.
+
+Feedback and suggestions are always welcome.
+
+Resources
+
+
+💻 GitHub Repository
+
+(Current Repository)
+
+
+If you have feedback, suggestions, or would like to connect, I'd be happy to hear from you.
 <img width="705" height="835" alt="image" src="https://github.com/user-attachments/assets/f15686d7-652b-4d51-89dd-89ccf12c3aa2" />
 <img width="842" height="817" alt="image" src="https://github.com/user-attachments/assets/198d5864-6958-4c99-b5d5-167b3acf0a69" />
 
 Directory Structure :
 <img width="361" height="876" alt="image" src="https://github.com/user-attachments/assets/128f9268-c708-414b-935e-0bc11d257d46" />
+What I Learned
 
-The company was not designed as a cloud provider itself. Instead, it was a technology company using AWS as its cloud infrastructure while providing IoT, SCADA, monitoring, and managed service capabilities to customers. That helped me think about shared responsibility, supplier risk, cloud controls, backup testing, access reviews, and business continuity in a more realistic way.
+This project helped me understand that cybersecurity is not only about technical controls.
 
-For NIS2, I classified APNord as an Important Entity under Annex II because of its ICT service management activities, revenue range, and the fact that enterprise customers depend on its IoT and SCADA services. I also mapped NIS2 Article 21 requirements against ISO 27001 controls and GDPR articles to understand how one control can support multiple frameworks at the same time.
+It is also about governance, risk management, documentation, accountability, evidence, audits, business processes, and continual improvement.
 
-For GDPR, I included areas like Records of Processing Activities, supplier/sub-processor management, data retention, access control, and incident reporting. I wanted to understand that GDPR is not only about privacy notices, but also about accountability, evidence, ownership, and operational control.
+More importantly, it taught me that frameworks like ISO 27001, GDPR, and NIS2 are most effective when they are implemented together rather than treated as separate compliance exercises.
 
-The outcome was a full simulated GRC programme with an ISMS scope, information security policy, Statement of Applicability, RACI, risk methodology, risk register, treatment plan, policies, control evidence, NIS2 mapping, audit schedule, nonconformity log, management review minutes, AWS shared responsibility review, and supplier documentation.
+About Me
 
-When I started, I thought I could finish it quickly. I was wrong.
+I'm currently looking for opportunities where I can apply my theoretical knowledge in real-world cybersecurity, Governance, Risk & Compliance (GRC), and Information Security Management.
 
-By mid-May, I realized there was much more to understand than I expected. I was trying to do everything at once, and it became overwhelming. So I changed my approach:
-
-One page a day.
-
-Every page had to teach me something. Why is this document needed? Who owns it? Which framework does it support? What evidence would an auditor expect? How does this connect to risk, compliance, and business operations?
-
-That approach helped me understand the bigger picture. ISO 27001 was not just a list of controls anymore. GDPR was not just a legal requirement. NIS2 was not just another regulation. I started seeing how governance, risk, roles, evidence, suppliers, incidents, audits, and management reviews connect inside an organization.
 
